@@ -10,6 +10,8 @@ Create tsconfig.json
 Compile to JS
 `tsc -w`
 
+Start compilation and execution
+`npm start`
 
 
 [![Screenshot](screenshot.png)](https://)
