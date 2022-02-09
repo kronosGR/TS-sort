@@ -1,6 +1,7 @@
 # TypeScript - Sort
 
 * TypeScript
+* nodemon and concurrently
 
 
 Create tsconfig.json
