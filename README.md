@@ -3,6 +3,7 @@
 * TypeScript
 * nodemon and concurrently
 * Classes and Interfaces
+* LinkedList implementation
 
 
 Create tsconfig.json
