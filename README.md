@@ -2,6 +2,7 @@
 
 * TypeScript
 * nodemon and concurrently
+* Classes and Interfaces
 
 
 Create tsconfig.json
