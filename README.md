@@ -3,6 +3,7 @@
 * TypeScript
 * nodemon and concurrently
 * Classes and Interfaces
+* Inheritance and abstract classes
 * LinkedList implementation
 
 

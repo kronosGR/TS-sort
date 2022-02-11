@@ -1,9 +1,12 @@
-export class NumbersCollection {
-  constructor(public data: number[]) {}
+import { Sorter } from './Sorter';
+export class NumbersCollection extends Sorter {
+  constructor(public data: number[]) {
+    super();
+  }
 
   // getter and you call it as property and not method
-  get length():number{
-    return this.data.length
+  get length(): number {
+    return this.data.length;
   }
 
   compare(leftIndex: number, rightIndex: number): boolean {
@@ -15,5 +18,4 @@ export class NumbersCollection {
     this.data[leftIndex] = this.data[rightIndex];
     this.data[rightIndex] = leftHand;
   }
-
 }
